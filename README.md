@@ -51,6 +51,7 @@ Cutoff 2026-08-01. Features use only orders before the cutoff, so there is no le
 With this cutoff only about 2 of 2,000 customers churned, so recall, precision and f1 were 0 for all three models, and accuracy was misleading.
 
 As an extra experiment I reran with a cutoff of 2026-10-01 (about 12% of customers churned). I chose the logreg model, with recall 0.72 and precision 0.17. I chose it for its recall, because for a win-back campaign it costs more to miss a customer who is leaving than to send an offer to one who would have stayed. Precision is low, so many customers flagged would not have left, but sending them an offer costs little.
+I reloaded the chosen model by its run ID and scored 5 customers
 
 <img width="870" height="284" alt="image" src="https://github.com/user-attachments/assets/cc1084b6-37b0-485a-b97c-8a8431546a5b" />
 
