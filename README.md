@@ -34,8 +34,9 @@ Example: customer 5 moved from Quetta to Karachi on 2026-04-15, so an order from
 
 ## Part 4: Delta tables
 fact_orders version 0 has 197,153 rows. After merging the orders updated after 2026-10-20, it has 200,000 rows (+2,847). The history shows the creates and the merge.
+<img width="553" height="143" alt="image" src="https://github.com/user-attachments/assets/9c4eb195-efa4-4585-92f4-dfa25bc14ef8" />
 
-(paste the DESCRIBE HISTORY screenshot here)
+
 
 ## Part 5: Gold tables and answers
 Revenue and average order value exclude cancelled and returned orders. City comes from dim_customer (the city at the time of the order).
